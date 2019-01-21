@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  background: #FFF;
+  height: 56px;
+  top: 0;
+  left: 0; }
+
+.navbar_navigation {
+  height: 100%; }
+
+.navbar_logo a {
+  color: #273653;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 5px; }
+
+.navbar_navigation-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; }
+
+.navbar_navigation-links li {
+  padding: 0 2rem; }
+
+.navbar_navigation-links a {
+  color: #273653;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 2rem; }
+  .navbar_navigation-links a:hover {
+    color: blue; }
+
+/*# sourceMappingURL=navbar.css.map */

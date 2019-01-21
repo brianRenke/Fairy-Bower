@@ -1,0 +1,53 @@
+/* Grid */
+body {
+  max-width: 113rem;
+  margin: auto;
+  padding: 0 4rem; }
+
+header {
+  margin: auto;
+  padding: 0 4rem; }
+
+.main {
+  margin-top: 56px; }
+
+.row {
+  margin-right: 0rem;
+  margin-left: 0rem; }
+
+.row_agents {
+  padding: 6rem 0 3rem 0; }
+
+/* fonts */
+html {
+  font-family: "Proxima Nova", "Helvetica", "Open Sans", sans-serif;
+  font-size: 8px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+h1 {
+  font-size: 6rem; }
+
+h2 {
+  font-size: 5rem; }
+
+h3 {
+  font-size: 4rem; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #273653;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 1rem 0 1rem 0; }
+
+a {
+  color: #273653;
+  font-size: 1.8rem;
+  text-decoration: none; }
+
+/* Colors */
+html {
+  color: #273653; }
+
+/*# sourceMappingURL=index.css.map */
