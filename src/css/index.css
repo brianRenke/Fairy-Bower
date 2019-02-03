@@ -1,12 +1,15 @@
 /* Grid */
+html {
+  height: 100%; }
+
 body {
   max-width: 113rem;
   margin: auto;
-  padding: 0 4rem; }
+  padding: 0 4rem;
+  height: 100%; }
 
-header {
-  margin: auto;
-  padding: 0 4rem; }
+.app {
+  height: 100%; }
 
 .main {
   margin-top: 56px; }

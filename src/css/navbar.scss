@@ -1,15 +1,16 @@
 @import "variables";
 
-.navbar {
+.navbar_navigation {
 	position: fixed;
-	background: #FFF;
-	height: 56px;
 	top: 0;
 	left: 0;
-}
-
-.navbar_navigation {
-	height: 100%;
+	margin: auto;
+	padding: 0 4rem;
+	background: #FFF;
+	width: 100%;
+	height: 56px;
+	box-shadow: inset 0 -1px 0 #eee;
+	float: right;
 }
 
 .navbar_logo a {
@@ -24,7 +25,8 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	display: flex;
+	display: none;
+	float: right;
 }
 
 .navbar_navigation-links li {
@@ -33,16 +35,34 @@
 
 .navbar_navigation-links a {
 	color: $chromatic-dark;
+	display: inline-block;
+	width: 100%;
 	text-decoration: none;
 	letter-spacing: 1px;
 	font-size: 2rem;
+    transition: color .2s ease;
+		transition-property: color;
+		transition-duration: 0.2s;
+		transition-timing-function: ease;
+		transition-delay: 0s;
 
 	&:hover {
-		color: blue;
+		color: $cobalt-blue;
 	}
 
 }
 
+@media (min-width: 48rem) {
+
+	.navbar_navigation-links ul {
+		display: flex;
+	}
+
+	.menu-button {
+		display: none;
+	}
+
+}
 
 
 
