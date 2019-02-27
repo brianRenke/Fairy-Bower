@@ -7,5 +7,7 @@
   float: right; }
   .menu-button:focus {
     outline: none; }
+  .menu-button .nav-icon {
+    fill: #273653; }
 
 /*# sourceMappingURL=menuButton.css.map */

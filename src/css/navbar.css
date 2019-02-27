@@ -15,7 +15,14 @@
   font-size: 3rem;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+  display: none; }
+
+.navbar_icon #path_1 {
+  fill: #2B84D8; }
+
+.navbar_icon #path_2 {
+  fill: #9A846B; }
 
 .navbar_navigation-links ul {
   list-style: none;
@@ -47,6 +54,12 @@
     display: flex; }
 
   .menu-button {
+    display: none; }
+
+  .navbar_logo a {
+    display: flex; }
+
+  .navbar_icon {
     display: none; } }
 
 /*# sourceMappingURL=navbar.css.map */

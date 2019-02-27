@@ -1,3 +1,5 @@
+@import "variables";
+
 .menu-button {
 	height: 4rem;
 	width: 4rem;
@@ -9,5 +11,9 @@
 	&:focus {
 		outline: none;
 	}
+
+.nav-icon {
+	fill: $chromatic-dark;
+}
 
 }
