@@ -9,7 +9,7 @@ html {
 body {
 	max-width: 113rem;
 	margin: auto;
-	padding: 0 4rem;
+	padding: 0 2rem;
 	height: 100%;
 }
 
@@ -24,12 +24,8 @@ body {
 .row {
   	margin-right: 0rem;
   	margin-left: 0rem;
+  	padding: 4rem 0 4rem 0;
 }
-
-.row_agents {
-	padding: 6rem 0 3rem 0;
-}
-
 
 /* fonts */
 
@@ -41,16 +37,24 @@ html {
 }
 
 h1 {
-	font-size: 6rem;
-	margin: 0 0 2rem 0;
+	font-size: 4.5rem;
+	font-weight: 900;
+	margin: 0;
+	padding: 0 0 2rem 0;
 }
 
 h2 {
-	font-size: 5rem;
+	font-size: 4.5rem;
+	font-weight: 900;
+	margin: 0;
+	padding: 0 0 2rem 0;
 }
 
 h3 {
-	font-size: 4rem;
+	font-size: 3.25rem;
+	font-weight: 900;
+	margin: 0;
+	padding: 0 0 2rem 0;
 }
 
 p {
@@ -59,6 +63,11 @@ p {
 	font-size: 1.75rem;
 	margin: 0;
 	padding: 1rem 0 1rem 0;
+}
+
+p.body-large {
+	font-size: 3rem;
+	padding: 0 0 3rem 0;
 }
 
 a {
@@ -101,10 +110,77 @@ html {
 	}
 }
 
-/* Hero */
+/* Templates */
 
-p.body-large {
-	font-size: 2.5rem;
-	padding: 0 0 3rem 0;
+.rectangle {
+	width: 350px;
+	height: 500px;
+	border-radius: 2rem;
+	margin: auto;
+}
+
+.rectangle video {
+	width: 100%;
+	max-width: 544px;
+}
+
+.shadow {
+	box-shadow: 0 0 1px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.1);
+}
+
+/* Over 768px */
+
+@media only screen and (min-width: 48em) { 
+
+		body {
+		padding: 0 4rem;
+	}
+
+	h1 {
+		font-size: 6rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
+
+	h2 {
+		font-size: 6rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
+
+	h3 {
+		font-size: 4.5rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
+}
+
+/* Over 992px */
+
+@media only screen and (min-width: 62em) { 
+
+	h1 {
+		font-size: 9rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
+
+	h2 {
+		font-size: 7rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
+
+	h3 {
+		font-size: 3rem;
+		font-weight: 900;
+		margin: 0;
+		padding: 0 0 2rem 0;
+	}
 }
 

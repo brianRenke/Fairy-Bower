@@ -29,10 +29,25 @@ class App extends Component {
         <Navbar sideDrawerClickHandler={this.menuButtonClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <div className="main col-xs center-xs">
-          <h1>User Friendly Design</h1>
-        	<p class="body-large">We work with people to build simple, beautiful and intelligent product solutions to complex problems.</p>
-          <a href="#" class="primary-button">View Work</a>
+        <div className="main">
+          <div className="row">
+            <div className="col-xs center-xs">
+              <h1>User Friendly Design</h1>
+          	  <p class="body-large">We work with people to build simple, beautiful and intelligent product solutions to complex problems.</p>
+              <a href="#" class="primary-button">View Work</a>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-xs-6">
+              <h2>Understanding People</h2>
+              <p class="body-large">You cannot understand good design if you do not understand people.</p>
+            </div>
+            <div className="rectangle shadow">
+              <div className="screen">
+                <video autoPlay loop muted src="https://s3-us-west-1.amazonaws.com/www.fairy-bower.com/video2.mp4" type="video/mp4"></video>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );

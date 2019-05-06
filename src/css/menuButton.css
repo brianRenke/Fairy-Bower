@@ -1,6 +1,7 @@
 .menu-button {
   height: 4rem;
   width: 4rem;
+  padding: 0;
   background: transparent;
   border: none;
   cursor: pointer;

@@ -5,7 +5,7 @@ import '../../css/navbar.css';
 const Navbar = props => (
 	<header>
 		<nav className="navbar_navigation row middle-xs">
-			<div className="col-xs-6">
+			<div className="navbar_navigation-logo col-xs-6">
 				<div className="navbar_logo"><a href="/">Fairy Bower</a></div>
 				<div className="navbar_icon">
 					<svg width="24px" height="24px" viewBox="0 0 24 24">
