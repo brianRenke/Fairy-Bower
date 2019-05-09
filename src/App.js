@@ -44,7 +44,7 @@ class App extends Component {
             </div>
             <div className="rectangle shadow">
               <div className="screen">
-                <video autoPlay loop muted src="https://s3-us-west-1.amazonaws.com/www.fairy-bower.com/video2.mp4" type="video/mp4"></video>
+                <video autoPlay loop muted src="https://d2rt221h1bct42.cloudfront.net/video2.mp4" type="video/mp4"></video>
               </div>
             </div>
           </div>
