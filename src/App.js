@@ -42,9 +42,11 @@ class App extends Component {
               <h2>Understanding People</h2>
               <p class="body-large">You cannot understand good design if you do not understand people.</p>
             </div>
-            <div className="rectangle shadow">
-              <div className="screen">
-                <video autoPlay loop muted src="https://d2rt221h1bct42.cloudfront.net/video2.mp4" type="video/mp4"></video>
+            <div className="col-xs-6">
+              <div className="rectangle shadow">
+                <div className="screen">
+                  <video autoPlay loop muted src="https://d2rt221h1bct42.cloudfront.net/static/images/homepage-2.mp4" type="video/mp4"></video>
+                </div>
               </div>
             </div>
           </div>

@@ -86,14 +86,15 @@ html {
 
 /* Templates */
 .rectangle {
-  width: 350px;
-  height: 500px;
-  border-radius: 2rem;
-  margin: auto; }
+  max-width: 300px;
+  border-radius: 4rem;
+  margin: auto;
+  padding: 1rem; }
 
-.rectangle video {
+.screen video {
   width: 100%;
-  max-width: 544px; }
+  max-width: 300px;
+  border-radius: 4rem; }
 
 .shadow {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05), 0 10px 20px rgba(0, 0, 0, 0.1); }

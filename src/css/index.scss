@@ -111,15 +111,16 @@ html {
 /* Templates */
 
 .rectangle {
-	width: 350px;
-	height: 500px;
-	border-radius: 2rem;
+	max-width: 300px;
+	border-radius: 4rem;
 	margin: auto;
+	padding: 1rem;
 }
 
-.rectangle video {
+.screen video {
 	width: 100%;
-	max-width: 544px;
+	max-width: 300px;
+	border-radius: 4rem;
 }
 
 .shadow {
