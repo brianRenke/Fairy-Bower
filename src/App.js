@@ -31,21 +31,23 @@ class App extends Component {
         {backdrop}
         <div className="main">
           <div className="row">
-            <div className="col-xs center-xs">
-              <h1>User Friendly Design</h1>
+            <div className="col-sm col-md-8">
+              <h1>Product design</h1>
           	  <p class="body-large">We work with people to build simple, beautiful and intelligent product solutions to complex problems.</p>
               <a href="#" class="primary-button">View Work</a>
             </div>
+            <div className="col-sm col-md-4">
+              <div className="rectangle shadow">
+                <div className="screen">
+                  <video autoPlay loop muted src="https://d2rt221h1bct42.cloudfront.net/static/images/homepage-2.mp4" type="video/mp4"></video>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="row">
-            <div className="col-xs-6">
-              <h2>Understanding People</h2>
+            <div className="col-sm col-md-6">
+              <h1>Understanding People</h1>
               <p class="body-large">You cannot understand good design if you do not understand people.</p>
-            </div>
-            <div className="rectangle shadow">
-              <div className="screen">
-                <video autoPlay loop muted src="https://s3-us-west-1.amazonaws.com/www.fairy-bower.com/video2.mp4" type="video/mp4"></video>
-              </div>
             </div>
           </div>
         </div>
