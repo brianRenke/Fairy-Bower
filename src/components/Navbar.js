@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuButton from '../SideDrawer/MenuButton';
-import '../../css/navbar.css';
+import MenuButton from './MenuButton';
+import '../css/navbar.css';
 
 const Navbar = props => (
 	<header>
