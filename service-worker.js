@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fairy-bower/precache-manifest.84ca9757d39e784d8825c3dc5e51e9bb.js"
+  "/fairy-bower/precache-manifest.d0827ddaf298f56aa5c3fdd40383d32a.js"
 );
 
 workbox.clientsClaim();
