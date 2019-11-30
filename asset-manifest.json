@@ -1,13 +1,13 @@
 {
-  "main.css": "/fairy-bower/static/css/main.df4c0747.chunk.css",
-  "main.js": "/fairy-bower/static/js/main.2789ac03.chunk.js",
-  "main.js.map": "/fairy-bower/static/js/main.2789ac03.chunk.js.map",
-  "static/js/1.b67d5974.chunk.js": "/fairy-bower/static/js/1.b67d5974.chunk.js",
-  "static/js/1.b67d5974.chunk.js.map": "/fairy-bower/static/js/1.b67d5974.chunk.js.map",
-  "runtime~main.js": "/fairy-bower/static/js/runtime~main.3963fe67.js",
-  "runtime~main.js.map": "/fairy-bower/static/js/runtime~main.3963fe67.js.map",
-  "static/css/main.df4c0747.chunk.css.map": "/fairy-bower/static/css/main.df4c0747.chunk.css.map",
-  "index.html": "/fairy-bower/index.html",
-  "precache-manifest.d0827ddaf298f56aa5c3fdd40383d32a.js": "/fairy-bower/precache-manifest.d0827ddaf298f56aa5c3fdd40383d32a.js",
-  "service-worker.js": "/fairy-bower/service-worker.js"
+  "main.css": "/static/css/main.df4c0747.chunk.css",
+  "main.js": "/static/js/main.9f518389.chunk.js",
+  "main.js.map": "/static/js/main.9f518389.chunk.js.map",
+  "static/js/1.b67d5974.chunk.js": "/static/js/1.b67d5974.chunk.js",
+  "static/js/1.b67d5974.chunk.js.map": "/static/js/1.b67d5974.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.df4c0747.chunk.css.map": "/static/css/main.df4c0747.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.557d2629ca8152dd422950daf4435a83.js": "/precache-manifest.557d2629ca8152dd422950daf4435a83.js",
+  "service-worker.js": "/service-worker.js"
 }
