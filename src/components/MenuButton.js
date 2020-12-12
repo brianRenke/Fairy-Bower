@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/menuButton.css';
+import '../css/menuButton.css';
 
 const MenuButton = props => (
 	<button className="menu-button" onClick={props.click}>
