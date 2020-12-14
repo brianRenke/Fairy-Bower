@@ -12,7 +12,7 @@ function Home() {
 			    <div className="col-sm col-md-4">
 			        <div className="rectangle shadow">
 			          	<div className="screen">
-			            	<video autoPlay loop muted src="https://d2rt221h1bct42.cloudfront.net/static/images/homepage-2.mp4" type="video/mp4"></video>
+			            	<video autoPlay loop muted src="https://d14q3brotd9flp.cloudfront.net/static/images/feed-mobile.mp4" type="video/mp4"></video>
 			          	</div>
 			        </div>
 			    </div>
