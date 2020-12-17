@@ -25,17 +25,6 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <div className="app">
-          <Navbar sideDrawerClickHandler={this.menuButtonClickHandler} />
-          <SideDrawer show={this.state.sideDrawerOpen} />
-          {backdrop}
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/work" component={Work} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
       <div className="app">
         <Navbar sideDrawerClickHandler={this.menuButtonClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
