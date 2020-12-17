@@ -30,7 +30,7 @@ class App extends Component {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
     return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <div className="app">
           <Navbar sideDrawerClickHandler={this.menuButtonClickHandler} />
           <SideDrawer show={this.state.sideDrawerOpen} />
