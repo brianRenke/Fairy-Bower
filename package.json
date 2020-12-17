@@ -2,7 +2,7 @@
   "name": "fairy-bower",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brianrenke.github.io/website",
+  "homepage": "https://brianrenke.github.io/fairy-bower/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "history": "^4.10.1",
