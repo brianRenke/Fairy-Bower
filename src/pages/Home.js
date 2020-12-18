@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
 	return (
@@ -7,7 +8,7 @@ function Home() {
 		      	<div className="col-sm col-md-8">
 		        	<h1>Product design</h1>
 		    	  	<p class="body-large">We work with people to build simple, beautiful and intelligent product solutions to complex problems.</p>
-		        	<a href="/work" class="primary-button">View Work</a>
+		        	<Link to="/work" class="primary-button">View Work</Link>
 		      	</div>
 			    <div className="col-sm col-md-4">
 			        <div className="rectangle shadow">
