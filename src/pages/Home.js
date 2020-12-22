@@ -13,7 +13,7 @@ function Home() {
 			    <div className="col-sm col-md-4">
 			        <div className="rectangle shadow">
 			          	<div className="screen">
-			            	<video autoPlay loop muted src="/assets/images/feed-mobile.mp4" type="video/mp4"></video>
+			            	<video autoPlay loop muted src="https://brianrenke.com/assets/images/feed-mobile.mp4" type="video/mp4"></video>
 			          	</div>
 			        </div>
 			    </div>
