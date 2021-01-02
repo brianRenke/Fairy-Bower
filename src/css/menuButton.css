@@ -1,6 +1,6 @@
 .menu-button {
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   padding: 0;
   background: transparent;
   border: none;
@@ -8,7 +8,7 @@
   float: right; }
   .menu-button:focus {
     outline: none; }
-  .menu-button .nav-icon {
+  .menu-button .menu-icon {
     fill: #273653; }
 
 /*# sourceMappingURL=menuButton.css.map */
