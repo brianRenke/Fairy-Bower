@@ -65,6 +65,14 @@
 
 }
 
+.navbar_icon {
+	display: flex;
+}
+
+.navbar_icon svg {
+	padding: 1rem 1rem;
+}
+
 /* Over 768px (sm) */
 
 @media (min-width: 48rem) {
