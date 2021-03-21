@@ -30,12 +30,12 @@
 	display: none;
 }
 
-.navbar_icon #path_1 {
-	fill: #2B84D8;
+.navbar_icon {
+	display: flex;
 }
 
-.navbar_icon #path_2 {
-	fill: #9A846B;
+.navbar_icon svg {
+	padding: 1rem 1rem;
 }
 
 .navbar_navigation-links ul {
@@ -63,14 +63,6 @@
 		color: $cobalt-blue;
 	}
 
-}
-
-.navbar_icon {
-	display: flex;
-}
-
-.navbar_icon svg {
-	padding: 1rem 1rem;
 }
 
 /* Over 768px (sm) */
