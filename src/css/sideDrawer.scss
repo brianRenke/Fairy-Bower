@@ -10,13 +10,17 @@
 	width: 80%;
 	max-width: 300px;
 	z-index: 200;
-	-webkit-transform: translateX(-105%);
-		transform: translateX(-105%);
 	transition: transform 300ms ease-out;
 }
 
-.side-drawer.open {
-	transform: translateX(0);
+.open {
+	-webkit-transform: translateX(0);
+		transform: translateX(0);
+}
+
+.close {
+	-webkit-transform: translateX(-105%);
+		transform: translateX(-105%);
 }
 
 .side-drawer ul {
