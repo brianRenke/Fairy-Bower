@@ -13,28 +13,22 @@ class App extends Component {
     sideDrawerOpen: false
   };
 
-  menuButtonClickHandler = () => {
+  menuButtonClick = () => {
     this.setState((prevState) => {
       return {sideDrawerOpen: !prevState.sideDrawerOpen};
     });
   };
 
-  backdropClickHandler = () => {
+  sideDrawerClose = () => {
     this.setState({sideDrawerOpen: false});
   };
 
   render() {
-    let backdrop;
-
-    if (this.state.sideDrawerOpen) {
-      backdrop = <Backdrop click={this.backdropClickHandler} />;
-    }
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
-          <Navbar sideDrawerClickHandler={this.menuButtonClickHandler} />
-          <SideDrawer show={this.state.sideDrawerOpen} />
-          {backdrop}
+          <Navbar sideDrawerClick={this.menuButtonClick} />
+          <SideDrawer open={this.state.sideDrawerOpen} closed={this.sideDrawerClose} />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />

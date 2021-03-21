@@ -18,7 +18,7 @@ const Navbar = props => (
 				</div>
 			</div>
 			<div className="navbar_navigation-links col-xs-6">
-				<MenuButton click={props.sideDrawerClickHandler} />
+				<MenuButton click={props.sideDrawerClick} />
 				<ul>
 					<Link to="/about">
 						<li>About</li>
