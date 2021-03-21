@@ -1,4 +1,5 @@
 import React from 'react';
+import feedMobile from '../assets/images/feed-mobile.mp4'
 import { Link } from 'react-router-dom';
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
 			    <div className="col-sm col-md-4">
 			        <div className="rectangle shadow">
 			          	<div className="screen">
-			            	<video autoPlay loop muted playsInline src="https://brianrenke.com/assets/images/feed-mobile.mp4" type="video/mp4"></video>
+			            	<video autoPlay loop muted playsInline src={feedMobile} type="video/mp4"></video>
 			          	</div>
 			        </div>
 			    </div>
