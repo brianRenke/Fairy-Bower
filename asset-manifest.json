@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.614105c2.chunk.css",
+    "main.css": "/website/static/css/main.94792d75.chunk.css",
     "main.js": "/website/static/js/main.0b0c097c.chunk.js",
     "main.js.map": "/website/static/js/main.0b0c097c.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.a694d72a.js",
@@ -8,14 +8,15 @@
     "static/js/2.051ac57f.chunk.js": "/website/static/js/2.051ac57f.chunk.js",
     "static/js/2.051ac57f.chunk.js.map": "/website/static/js/2.051ac57f.chunk.js.map",
     "index.html": "/website/index.html",
-    "static/css/main.614105c2.chunk.css.map": "/website/static/css/main.614105c2.chunk.css.map",
+    "static/css/main.94792d75.chunk.css.map": "/website/static/css/main.94792d75.chunk.css.map",
     "static/js/2.051ac57f.chunk.js.LICENSE.txt": "/website/static/js/2.051ac57f.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/website/static/media/SofiaPro-Regular.35f802d2.woff",
     "static/media/feed-mobile.1afe4a50.mp4": "/website/static/media/feed-mobile.1afe4a50.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.a694d72a.js",
     "static/js/2.051ac57f.chunk.js",
-    "static/css/main.614105c2.chunk.css",
+    "static/css/main.94792d75.chunk.css",
     "static/js/main.0b0c097c.chunk.js"
   ]
 }
