@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/website/static/css/main.614105c2.chunk.css",
-    "main.js": "/website/static/js/main.9243df02.chunk.js",
-    "main.js.map": "/website/static/js/main.9243df02.chunk.js.map",
+    "main.js": "/website/static/js/main.0b0c097c.chunk.js",
+    "main.js.map": "/website/static/js/main.0b0c097c.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.a694d72a.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.a694d72a.js.map",
     "static/js/2.051ac57f.chunk.js": "/website/static/js/2.051ac57f.chunk.js",
@@ -10,14 +10,12 @@
     "index.html": "/website/index.html",
     "static/css/main.614105c2.chunk.css.map": "/website/static/css/main.614105c2.chunk.css.map",
     "static/js/2.051ac57f.chunk.js.LICENSE.txt": "/website/static/js/2.051ac57f.chunk.js.LICENSE.txt",
-    "static/media/SofiaPro-Bold.f88fcb4d.woff": "/website/static/media/SofiaPro-Bold.f88fcb4d.woff",
-    "static/media/SofiaPro-Regular.35f802d2.woff": "/website/static/media/SofiaPro-Regular.35f802d2.woff",
     "static/media/feed-mobile.1afe4a50.mp4": "/website/static/media/feed-mobile.1afe4a50.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.a694d72a.js",
     "static/js/2.051ac57f.chunk.js",
     "static/css/main.614105c2.chunk.css",
-    "static/js/main.9243df02.chunk.js"
+    "static/js/main.0b0c097c.chunk.js"
   ]
 }
