@@ -13,7 +13,7 @@ const Navbar = props => (
 				<Icon />
 			</div>
 			<div className="links col-xs-6">
-				<MenuButton click={props.sideDrawerClick} />
+				<MenuButton click={props.navbarClick} />
 				<ul>
 					<NavLink link="/about">About</NavLink>
 					<NavLink link="/work">Work</NavLink>

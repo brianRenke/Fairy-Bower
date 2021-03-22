@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <div className="app">
-          <Navbar sideDrawerClick={this.menuButtonClick} />
+          <Navbar navbarClick={this.menuButtonClick} />
           <SideDrawer open={this.state.sideDrawerOpen} closed={this.sideDrawerClose} />
           <Switch>
             <Route path="/" exact component={Home} />
