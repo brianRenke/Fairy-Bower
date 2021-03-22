@@ -10,12 +10,12 @@ const SideDrawer = props => {
 	}
 	return (
 		<div>
-			<Backdrop show={props.open} click={props.closed}/>
+			<Backdrop open={props.open} click={props.closed}/>
 			<nav className={drawerClasses}>
 				<ul>
-					<NavLink link="/about">About</NavLink>
-					<NavLink link="/work">Work</NavLink>
-					<NavLink link="/contact">Contact</NavLink>
+					<NavLink link="/about" click={props.closed}>About</NavLink>
+					<NavLink link="/work" click={props.closed}>Work</NavLink>
+					<NavLink link="/contact" click={props.closed}>Contact</NavLink>
 				</ul>
 			</nav>
 		</div>
