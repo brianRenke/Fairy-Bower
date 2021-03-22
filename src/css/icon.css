@@ -1,0 +1,16 @@
+.icon {
+  cursor: pointer;
+}
+.icon:focus {
+  outline: none;
+}
+
+.icon #path_1 {
+  fill: #2B84D8;
+}
+
+.icon #path_2 {
+  fill: #9A846B;
+}
+
+/*# sourceMappingURL=icon.css.map */
