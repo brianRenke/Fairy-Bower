@@ -10,7 +10,6 @@ const Navbar = props => (
 		<nav className="navbar row middle-xs">
 			<div className="logo col-xs-6">
 				<div><Link to="/">Brian Renke</Link></div>
-				<Icon />
 			</div>
 			<div className="links col-xs-6">
 				<MenuButton click={props.navbarClick} />
